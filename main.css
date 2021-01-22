@@ -1,0 +1,40 @@
+/* adding variables  */
+:root {
+    --main: #eeeeee;
+    --dark: #393e46;
+    --blue: #6993f5;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--main);
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: var(--dark);
+    color: var(--blue);
+    font-size: 20px;
+}
+
+.header-container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    
+}
