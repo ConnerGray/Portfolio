@@ -23,7 +23,6 @@ body {
 
 h1 {
     font-weight: 700;
-    font-size: 38px;
 }
 
 p {
@@ -97,6 +96,10 @@ a:hover, a:active {
 
 .about-title {
     text-align: center;
+}
+
+.about-h1 {
+    font-size: 38px;
 }
 
 .about-para {
@@ -227,4 +230,39 @@ footer {
 
 .btn5, .btn6 {
     margin-top: 10px;
+}
+
+/* projects section */
+.projects-section {
+    margin: auto 0px auto 0px;
+    text-align: center;
+}
+
+.projects-container {
+    margin: auto;
+    display: grid;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.projects-item {
+    background-color: var(--dark);
+    height: auto;
+    width: auto;
+    padding: 30px;
+    border-radius: 8px;
+    border: 2px solid var(--blue);
+    box-shadow: 1px 1px 10px black;
+}
+
+.projects-h1 {
+    font-size: 28px;
+    color: var(--blue);
+}
+
+.projects-p {
+    color: var(--main);
+    margin: 10px 0px 10px 0px;
 }
