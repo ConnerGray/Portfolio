@@ -21,20 +21,41 @@ header {
     background-color: var(--dark);
     color: var(--blue);
     font-size: 20px;
+    max-width: 940px;
+    margin: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .header-container {
     padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-ul {
-    list-style-type: none;
+nav {
     display: flex;
+    margin-top: 20px;
 }
 
-li {
-    
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--main);
+    text-decoration: none;
+    cursor: pointer;
 }
