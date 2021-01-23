@@ -19,7 +19,6 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-self: stretch;
 }
 
 h1 {
@@ -28,7 +27,7 @@ h1 {
 }
 
 p {
-    font-weight: 600;
+    font-weight: 300;
 
 }
 
@@ -39,7 +38,7 @@ header {
     font-size: 20px;
     max-width: 940px;
     width: 100%;
-    margin: auto;
+    margin: 0px auto auto auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
@@ -71,7 +70,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:active {
     color: var(--main);
     text-decoration: none;
     cursor: pointer;
@@ -104,6 +103,7 @@ a:hover {
     margin: 20px auto auto auto;
     width: 60%;
     line-height: 22px;
+    font-weight: 560;
 }
 
 .about-buttons {
@@ -163,7 +163,7 @@ a:hover {
 
 /* Footer */
 footer {
-    margin: auto;
+    margin: auto 0px 0px 0px;
     background-color: var(--dark);
     border-top: 2px solid var(--blue);
     width: 100%;
@@ -191,3 +191,40 @@ footer {
     padding-top: 8px;
 }
 
+
+/* Blog Page */
+.blog section {
+    margin: auto 0px auto 0px;
+}
+
+.blog-container {
+    margin: auto;
+    max-width: 940px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-item {
+    background-color: var(--dark);
+    margin: 0px 10px 0px 0px;
+    height: auto;
+    width: 40%;
+    padding: 30px;
+    border-radius: 8px;
+    border: 2px solid var(--blue);
+    box-shadow: 1px 1px 10px black;
+}
+
+.blog-h1 {
+    color: var(--blue);
+    font-size: 28px;
+}
+
+.blog-para, .blog-date {
+    color: var(--main);
+    margin-top: 3px;
+}
+
+.btn5, .btn6 {
+    margin-top: 10px;
+}
