@@ -3,6 +3,7 @@
     --main: #eeeeee;
     --dark: #393e46;
     --blue: #6993f5;
+    --font: 'JetBrains Mono';
 }
 
 * {
@@ -14,6 +15,17 @@
 body {
     background-color: var(--main);
     margin: 0;
+    font-family: 'JetBrains Mono';
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+p {
+    font-weight: 600;
+
 }
 
 /* Header Styling */
@@ -59,3 +71,46 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+/* About Section */
+.about-section {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about-container {
+    margin: auto;
+    max-width: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-para {
+    margin-top: 20px;
+}
+
+.about-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: var(--blue);
+    color: var(--dark);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--font);
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+
