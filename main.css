@@ -14,8 +14,12 @@
 
 body {
     background-color: var(--main);
-    margin: 0;
     font-family: 'JetBrains Mono';
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
 }
 
 h1 {
@@ -34,6 +38,7 @@ header {
     color: var(--blue);
     font-size: 20px;
     max-width: 940px;
+    width: 100%;
     margin: auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -76,6 +81,9 @@ a:hover {
 .about-section {
     margin-top: auto;
     margin-bottom: auto;
+    width: 100%;
+    flex: 1;
+    display: flex;
 }
 
 .about-container {
@@ -113,4 +121,69 @@ a:hover {
     transform: scale(1.1);
 }
 
+/* Podcast Section */
+.podcast-section {
+    background-color: var(--dark);
+    margin: auto;
+    width: 100%;
+}
+
+.podcast-container {
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    max-width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.podcast-info {
+    color: var(--blue);
+    width: 50%;
+    padding-right: 40px;
+    
+}
+
+.podcast-para {
+    color: var(--main);
+    padding-top: 10px;
+}
+
+.btn4 {
+    margin-top: 10px;
+}
+
+.cmm-img {
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    margin: auto;
+    background-color: var(--dark);
+    border-top: 2px solid var(--blue);
+    width: 100%;
+}
+
+.footer-container {
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+.image-15 {
+    padding-top: 8px;
+}
 
