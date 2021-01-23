@@ -266,3 +266,72 @@ footer {
     color: var(--main);
     margin: 10px 0px 10px 0px;
 }
+
+/* form section */
+.form-section {
+    margin: auto;
+}
+
+.form-container {
+    margin: auto;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark);
+    border: 2px solid var(--blue);
+    border-radius: 25px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-h1 {
+    color: var(--blue);
+    text-align: center;
+    font-size: 34px;
+}
+
+.form-para {
+    color: var(--main);
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+/* form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field-label {
+    color: var(--blue);
+    font-size: 24px;
+    margin: 20px 0px 0px 0px;
+}
+
+.w-input {
+    margin-top: 8px;
+    width: 20em;
+    background-color: var(--main);
+    color: var(--dark);
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+}
+
+.message {
+    height: 5em;
+}
+
+.btn7 {
+    margin: 10px;
+    width: 50%;
+}
+
