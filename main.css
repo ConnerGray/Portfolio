@@ -78,7 +78,6 @@ a:hover, a:active {
 /* About Section */
 .about-section {
     margin: auto;
-    height: auto;
     width: 100%;
     display: flex;
 }
@@ -197,7 +196,7 @@ footer {
 
 /* Blog Page */
 .blog-section {
-    margin: 0px;
+    margin: auto;
 }
 
 .blog-container {
@@ -361,9 +360,12 @@ footer {
 
 /* Media Queries */
 @media screen and (max-width: 800px) {
+    body {
+        height: auto;
+    }
+    
     .about-section {
         margin: 20px auto 20px auto;
-        height: 50vh;
     }
     
     .podcast-container {
