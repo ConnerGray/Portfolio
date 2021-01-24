@@ -336,5 +336,26 @@ footer {
 }
 
 /*blog content*/
+.blog-content-section {
+    margin: auto;
+}
 
+.blog-content-container {
+    display: flex;
+    max-width: 940px;
+    padding: 25px;
+}
 
+.blog-content {
+
+}
+
+.blog-content-h1 {
+    margin-bottom: 10px;
+    color: var(--blue);
+}
+
+.blog-content-para {
+    line-height: 27px;
+    font-weight: 500;
+}
