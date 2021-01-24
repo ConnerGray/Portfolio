@@ -390,8 +390,8 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .blog {
-        margin: 20px auto auto auto;
+    .blog-section {
+        height: 75vh
     }
 
     .blog-container {
