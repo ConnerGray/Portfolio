@@ -80,8 +80,8 @@ a:hover, a:active {
     margin-top: auto;
     margin-bottom: auto;
     width: 100%;
-    flex: 1;
     display: flex;
+    flex: 1;
 }
 
 .about-container {
@@ -99,7 +99,7 @@ a:hover, a:active {
 }
 
 .about-h1 {
-    font-size: 38px;
+    font-size: 5em;
 }
 
 .about-para {
