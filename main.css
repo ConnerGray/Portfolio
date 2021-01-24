@@ -37,7 +37,7 @@ header {
     font-size: 20px;
     max-width: 940px;
     width: 100%;
-    margin: 0px auto auto auto;
+    margin: 0 auto auto auto;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
@@ -77,11 +77,9 @@ a:hover, a:active {
 
 /* About Section */
 .about-section {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     width: 100%;
     display: flex;
-    flex: 1;
 }
 
 .about-container {
@@ -99,7 +97,7 @@ a:hover, a:active {
 }
 
 .about-h1 {
-    font-size: 5em;
+    font-size: 3rem;
 }
 
 .about-para {
@@ -197,22 +195,25 @@ footer {
 
 /* Blog Page */
 .blog section {
-    margin: auto 0px auto 0px;
+    margin: auto;
 }
 
 .blog-container {
     margin: auto;
-    max-width: 940px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: center;
 }
 
 .blog-item {
     background-color: var(--dark);
-    margin: 0px 10px 0px 0px;
-    height: auto;
-    width: 40%;
-    padding: 30px;
+    margin: auto;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
     border-radius: 8px;
     border: 2px solid var(--blue);
     box-shadow: 1px 1px 10px black;
@@ -331,7 +332,7 @@ footer {
 }
 
 .btn7 {
-    margin: 10px;
+    margin-top: 20px;
     width: 50%;
 }
 
@@ -346,10 +347,6 @@ footer {
     padding: 25px;
 }
 
-.blog-content {
-
-}
-
 .blog-content-h1 {
     margin-bottom: 10px;
     color: var(--blue);
@@ -358,4 +355,50 @@ footer {
 .blog-content-para {
     line-height: 27px;
     font-weight: 500;
+}
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+    .about-section {
+        margin: 20px auto 20px auto;
+    }
+    
+    .podcast-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .podcast-info {
+        padding: 0;
+    }
+
+    .cmm-img {
+        margin-top: 20px;
+    }
+
+    .projects-section {
+        margin: 20px auto auto auto;
+    }
+
+    .projects-container {
+        padding: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .blog-container {
+        padding: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .blog-item {
+        width: 100%;
+    }
+
+    .form-section {
+        padding: 20px;
+    }
+
+    .form-container {
+        width: 100%;
+    }
 }
