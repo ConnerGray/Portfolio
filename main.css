@@ -78,7 +78,7 @@ a:hover, a:active {
 /* About Section */
 .about-section {
     margin: auto;
-    height: 100%;
+    height: auto;
     width: 100%;
     display: flex;
 }
@@ -131,6 +131,7 @@ a:hover, a:active {
 .podcast-section {
     background-color: var(--dark);
     margin: auto;
+    height: auto;
     width: 100%;
 }
 
