@@ -130,7 +130,7 @@ a:hover, a:active {
 /* Podcast Section */
 .podcast-section {
     background-color: var(--dark);
-    margin: auto;
+    margin: 0;
     height: auto;
     width: 100%;
 }
@@ -166,7 +166,7 @@ a:hover, a:active {
 
 /* Footer */
 footer {
-    margin: auto 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     background-color: var(--dark);
     border-top: 2px solid var(--blue);
     width: 100%;
