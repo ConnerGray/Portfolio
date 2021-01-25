@@ -201,6 +201,7 @@ footer {
 
 .blog-container {
     margin: auto;
+    max-width: 940px;
     display: grid;
     display: inline-grid;
     grid-template-columns: 1fr 1fr;
@@ -211,9 +212,8 @@ footer {
 
 .blog-item {
     background-color: var(--dark);
-    margin: auto;
     height: 100%;
-    width: 50%;
+    width: 80%;
     padding: 20px;
     border-radius: 8px;
     border: 2px solid var(--blue);
