@@ -77,7 +77,7 @@ a:hover, a:active {
 
 /* About Section */
 .about-section {
-    margin: auto;
+    margin: 20px auto 20px auto;
     width: 100%;
     display: flex;
 }
