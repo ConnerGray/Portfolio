@@ -326,6 +326,7 @@ footer {
     padding: 10px;
     border-radius: 20px;
     border:none;
+    text-align: center;
 }
 
 .message {
