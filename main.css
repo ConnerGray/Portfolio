@@ -359,7 +359,7 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     body {
         height: auto;
     }
