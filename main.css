@@ -102,24 +102,29 @@ a:hover, a:active {
 
 .about-para {
     margin: 20px auto auto auto;
-    width: 60%;
+    width: auto;
     line-height: 22px;
     font-weight: 560;
 }
 
 .about-buttons {
-    margin-top: 20px;
+    margin: 20px auto auto auto;
+    width: 100%;
+    text-align: center;
 }
 
 .btn {
+    width: 20%;
     background-color: var(--blue);
-    color: var(--dark);
+    color: var(--main);
     padding: 10px;
     border: none;
     border-radius: 8px;
     font-family: var(--font);
-    font-weight: 600;
+    font-weight: 700;
     transition: all .2s ease-in-out;
+    font-size: 18px;
+    text-align: center;
 }
 
 .btn:hover {
@@ -157,6 +162,7 @@ a:hover, a:active {
 
 .btn4 {
     margin-top: 10px;
+    width: auto;
 }
 
 .cmm-img {
@@ -232,6 +238,7 @@ footer {
 
 .btn5, .btn6 {
     margin-top: 10px;
+    width: 50%;
 }
 
 /* projects section */
@@ -372,6 +379,17 @@ footer {
     .podcast-container {
         flex-direction: column;
         text-align: center;
+    }
+
+    .about-buttons {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .btn1, .btn2, .btn3,.btn5, .btn6 {
+        Margin: 10px;
+        width: 50%;
     }
 
     .podcast-info {
