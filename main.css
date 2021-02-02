@@ -55,6 +55,10 @@ nav {
     margin-top: 20px;
 }
 
+.icon {
+    display: none;
+}
+
 .menu {
     display: flex;
     list-style-type: none;
