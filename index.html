@@ -11,26 +11,30 @@
 
   <link rel="stylesheet" href="./main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="scripts.js"></script>
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
-
   <!-- Header --> 
   <header>
       <div class="header-container">
-        <img src="images/cglogo.png" class="cglogo" loading="lazy" width="71" sizes="71px" srcset="images/cglogo-p-500.png 500w, images/cglogo.png 512w" 
-        alt="" class="cglogo-img">
+        <nav class="navbar">
+          <img src="images/cglogo.png" class="nav-logo" loading="lazy"  srcset="images/cglogo-p-500.png 500w, images/cglogo.png 512w" 
+          alt="" class="cglogo-img">
 
-        <nav>
-            <ul class="menu">
-              <a href="index.html"><li class="menu-item">Home</li></a>
-              <a href="projects.html"><li class="menu-item">Projects</li></a>
-              <a href="blog.html"><li class="menu-item">Blog</li></a>
-              <a href="contact.html"><li>Contact</li></a>
-            </ul>
+          <div class="hamburger" id="hamburger">
+              <div class="bar bar-1"></div>
+              <div class="bar bar-2"></div>
+              <div class="bar bar-3"></div>
+          </div>
 
+              <ul class="menu" id="menu">
+                <a href="index.html"><li class="menu-item">Home</li></a>
+                <a href="projects.html"><li class="menu-item">Projects</li></a>
+                <a href="blog.html"><li class="menu-item">Blog</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+              </ul>
+
+          </nav>
       </div>
   </header>
 
@@ -94,6 +98,6 @@
 
     </div>
   </footer>
-
+  <script src="scripts.js"></script>
 </body>
 </html>
