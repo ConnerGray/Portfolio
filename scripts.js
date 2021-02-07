@@ -7,7 +7,4 @@ hamburger.addEventListener('click', () => {
     menu.classList.toggle('show');
 });
 
-menuicon.addEventListener('click', () => {
-    navbar.classList.toggle('change');
-});
 
